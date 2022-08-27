@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#navbar1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+#navbar1>div{
+    display: flex;
+}
+#navbar1>div>div{
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+#navbar1>div>div>img{
+    width: 15%;
+}
+#navbar1>div:nth-child(2){
+    display: flex;
+    justify-content: space-around;
+    margin-right:170px;
+    width: 20%;
+}
+#navbar1>div:first-child{
+    margin-left: 20px;
+    justify-content: space-evenly;
+}
+#navbar1>div:first-child>div{
+    margin-right:-170px;
+    justify-content:center;
+}
