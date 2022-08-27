@@ -1,0 +1,149 @@
+#parent {
+    width: 90%;
+    margin: auto;
+  }
+  #parent > img {
+    width: 100%;
+  }
+  hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  #first,
+  #third,
+  #fourth,
+  #fivth,
+  #sixth,
+  #seventh,
+  #eight,
+  #ninth , #thirteen {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  #first > img {
+    width: 100%;
+  }
+  #parent > p {
+    font-size: 2rem;
+  }
+  #second {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 30px;
+  }
+  #second > div > img {
+    width: 100%;
+    height: 200px;
+    border: 5px solid red;
+  }
+  #second > div {
+    text-align: center;
+  }
+  #third > img {
+    width: 100%;
+  }
+  #fourth > img {
+    width: 100%;
+  }
+  #fivth > img {
+    width: 100%;
+  }
+  #sixth > img {
+    width: 100%;
+  }
+  #seventh > img {
+    width: 100%;
+  }
+  #eight > img {
+    width: 100%;
+  }
+  #ninth > img {
+    width: 100%;
+  }
+  #ten > img {
+    width: 100%;
+  }
+  span {
+    text-decoration: line-through;
+    color: gray;
+  }
+  #eleven {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+  }
+  #eleven > div > img {
+    width: 100%;
+  }
+  #parent>button{
+      padding: 20px 100px;
+      margin: 30px 0px 0px 500px;
+  }
+  #twelve{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      gap: 30px;
+  }
+  #twelve>img{
+      width: 100%;
+  }
+  #thirteen > img{
+      width: 100%;
+  }
+  #parent>div>div>input{
+    padding: 10px 40px 10px 20px;
+    font-size: 1.3rem;
+  }
+  #parent>div>div>button{
+    padding: 10px 20px;
+    margin-left: -30px;
+    background-color:black;
+    color: white ;
+    font-size: 1.3rem;
+  }
+  #fourteen{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  #fourteen>div>div>img{
+    width: 30%;
+  }
+  #fourteen >div>div>img:last-child{
+    width: 35%;
+  }
+  #footer>div:first-child{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+  }
+  #foot2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #foot2>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  #foot2>div:last-child{
+    justify-content: flex-end;
+   }
+  #foot2>div>img{
+    width: 5%;
+    height: 50%;
+    padding-left: 20px;
+  }
+  #foot2>div>div>p{
+    margin-bottom: -15px;
+  }
+  #logo{
+    width: 15%;
+  }
+  #footer>div:last-child{
+    display: flex;
+  }
+  #footer>div:last-child>div>p{
+    margin-bottom: -10px;
+    color: gray;
+  }
