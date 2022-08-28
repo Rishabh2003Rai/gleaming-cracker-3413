@@ -1,6 +1,7 @@
 #parent {
     width: 90%;
     margin: auto;
+   
   }
   #parent > img {
     width: 100%;
@@ -20,6 +21,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+   
   }
   #first > img {
     width: 100%;
@@ -35,7 +37,9 @@
   #second > div > img {
     width: 100%;
     height: 200px;
-    border: 5px solid red;
+    border-style: solid;
+    border-width: 5px;
+    border-image: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66)) 1;
   }
   #second > div {
     text-align: center;
@@ -111,39 +115,4 @@
   }
   #fourteen >div>div>img:last-child{
     width: 35%;
-  }
-  #footer>div:first-child{
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-  }
-  #foot2{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  #foot2>div{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
-  #foot2>div:last-child{
-    justify-content: flex-end;
-   }
-  #foot2>div>img{
-    width: 5%;
-    height: 50%;
-    padding-left: 20px;
-  }
-  #foot2>div>div>p{
-    margin-bottom: -15px;
-  }
-  #logo{
-    width: 15%;
-  }
-  #footer>div:last-child{
-    display: flex;
-  }
-  #footer>div:last-child>div>p{
-    margin-bottom: -10px;
-    color: gray;
   }

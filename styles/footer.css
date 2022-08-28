@@ -1,0 +1,35 @@
+#footer>div:first-child{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+}
+#foot2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#foot2>div{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#foot2>div:last-child{
+  justify-content: flex-end;
+ }
+#foot2>div>img{
+  width: 5%;
+  height: 50%;
+  padding-left: 20px;
+}
+#foot2>div>div>p{
+  margin-bottom: -15px;
+}
+#logo1{
+  width: 15%;
+}
+#footer>div:last-child{
+  display: flex;
+}
+#footer>div:last-child>div>p{
+  margin-bottom: -10px;
+  color: gray;
+}
